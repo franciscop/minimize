@@ -10,7 +10,7 @@ class Minimize
     if (substr($folder, -1) != "/") $folder = $folder."/";
     $uncompressed = $this->retrieve( $folder, $filetype );
     
-    $compressed = "/* Mwahahahah you might want to use this http://cssbeautify.com/ or this http://jsbeautifier.org/ */ \n\n".$this->remove ($uncompressed);
+    $compressed = "/* You might want to use this http://cssbeautify.com/ or this http://jsbeautifier.org/ */ \n\n".$this->remove ($uncompressed);
     
     $this->save ( $compressed, $file );
     }
