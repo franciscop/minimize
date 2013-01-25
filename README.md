@@ -6,14 +6,14 @@ Usage
 =====
 You will need this php code:
 
-if (file_exists('class.minimize.php'))
+if (file_exists('minimize.php')) =
   {
-  include 'class.minimize.php';
+  include 'minimize.php';
   $Minimize = new Minimize();
   $Minimize->folder('/path/to/the/folder/','.css','/path/to/the/resulting/file/style.css');
   }
 else
-  echo 'The class was not found, please make sure it's in this folder';
+  echo 'The file was not found, please make sure it's in this folder';
 
 
 Then, in your html, include the style.css resulting file in the header as normal
