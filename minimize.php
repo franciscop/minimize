@@ -1,5 +1,5 @@
 <?php
-/* Actually minimize, not compress (; */
+/* Class created by Francisco Presencia Fandos under GNU GPL 3+. Feel free to use and share. */
 class Minimize
   {
   /* $folder is the folder that contains all the files to be compressed
